@@ -1,1 +1,1 @@
-Sitemap: https://frankly-shabbycucumbers.deno.dev/my_sitemap.xml
+Sitemap: https://frankly-shabbycucumbers.deno.dev/sitemap.xml
