@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 - Oops! Lost in the Cucumbers</title>
+    <style>
+        /* Basic reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            text-align: center;
+            max-width: 600px;
+            width: 100%;
+        }
+
+        .message h1 {
+            font-size: 2.5rem;
+            color: #4CAF50; /* Cucumber green */
+            margin-bottom: 20px;
+        }
+
+        .message p {
+            font-size: 1.2rem;
+            color: #555;
+            margin-bottom: 15px;
+        }
+
+        .buttons {
+            margin-top: 20px;
+        }
+
+        .button {
+            display: inline-block;
+            background-color: #4CAF50;
+            color: white;
+            padding: 12px 30px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin: 5px;
+            font-size: 1.1rem;
+            transition: background-color 0.3s;
+        }
+
+        .button:hover {
+            background-color: #45a049;
+        }
+
+        .cucumber-image img {
+            max-width: 200px;
+            margin-top: 30px;
+        }
+
+        @media (max-width: 600px) {
+            .message h1 {
+                font-size: 2rem;
+            }
+
+            .message p {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="message">
+            <h1>Oops! Looks like you've stumbled into a pickle! 🥒</h1>
+            <p>We couldn't find the page you were looking for. It might have been lost in the garden, or it could be hiding in a cupboard somewhere.</p>
+            <p>But don't worry, we're not sour about it! Here's what you can do:</p>
+            <div class="buttons">
+                <a href="/" class="button" id="homeButton">Go back to the Home Page</a>
+                <a href="/contact" class="button" id="contactButton">Send us a message</a>
+            </div>
+        </div>
+        <div class="cucumber-image">
+            <img src="logo.png" alt="Confused cucumber">
+        </div>
+    </div>
+
+    <script>
+        // Optional: Adding a fun script to make it interactive or log an error
+        console.log("404 - You've found a lost cucumber! 🥒");
+
+        // JavaScript to handle actions or dynamically update the page if needed
+        document.getElementById('homeButton').addEventListener('click', function() {
+            console.log("User is going back to the homepage!");
+        });
+
+        document.getElementById('contactButton').addEventListener('click', function() {
+            console.log("User wants to contact us!");
+        });
+    </script>
+</body>
+</html>
